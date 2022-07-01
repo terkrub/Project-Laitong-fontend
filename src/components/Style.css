@@ -1,0 +1,55 @@
+
+.top-header{
+    background-color: #242323;
+}
+.logo-topHeader{
+    padding-top: 20px;
+    width: 120px;
+    height: auto;
+
+}
+
+.brandName{
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.SideLogo{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    background-color: #363434;
+}
+
+.SideMenu{
+    text-align: center;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 200px;
+    background-color: #242323;
+
+}
+
+.Menu-btn:hover {background: #eee;}/* On mouse-over */
+.Menu{
+    color: white;
+    text-align: center;
+}
+.Menu-btn{
+    color: white;
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+
+}

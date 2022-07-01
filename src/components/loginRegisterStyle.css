@@ -1,0 +1,54 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.login-btn{
+    padding: 10px;
+}
+
+.mainBox{
+    max-width: 500px;
+    margin: auto;
+}
+
+.logoLogin{
+    padding: 10px;
+    width: 4%;
+    height: auto;
+}
+
+.box{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.top-header-SignPage{
+    background-color: #242323;
+}
+
+.brandNameLogin{
+    color: white;
+    padding: 1%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu-btn:hover {background: #eee;}/* On mouse-over */
+.menu-btn{
+    color: white;
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+
