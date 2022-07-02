@@ -1,17 +1,17 @@
 import SideMenu from "./components/Main/Sidemenu"
 import './components/Main/Style.css';
 import CheckToken from "./ConnectApi/CheckToken";
-import Product from "./components/Main/Product/Product";
+import ContactInfo from "./components/Main/Contact/ContactInfo";
 
 
-const Home=()=>{
+const Contact=()=>{
     CheckToken()
     return(
         <div className="Body">
             <SideMenu/>
-            <Product/>
+            <ContactInfo/>
         </div>
     )
 }
 
-export default Home
+export default Contact

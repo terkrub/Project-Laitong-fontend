@@ -1,7 +1,3 @@
-
-.top-header{
-    background-color: #242323;
-}
 .logo-topHeader{
     padding-top: 20px;
     width: 120px;
@@ -17,27 +13,25 @@
     text-align: center;
 }
 
-.SideLogo{
-    text-align: center;
-    height: 200px;
-    width: 200px;
-    position: fixed;
-    left: 0;
-    background-color: #363434;
-}
 
+.Logout{
+    padding: 20px;
+}
 .SideMenu{
-    text-align: center;
     height: 100%;
     width: 200px;
     position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    top: 200px;
     background-color: #242323;
+    overflow-x: hidden;
+    padding-top: 10px;
+    text-align: center;
 
 }
 
-.Menu-btn:hover {background: #eee;}/* On mouse-over */
+.Menu-btn:hover {background: #eee;}
 .Menu{
     color: white;
     text-align: center;

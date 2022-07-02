@@ -1,5 +1,5 @@
-import TopHeader from "./components/TopHeaderLoginRegister";
-import RegisterForm from "./components/RegisterForm";
+import TopHeader from "./components/LoginRegister/TopHeaderLoginRegister";
+import RegisterForm from "./components/LoginRegister/RegisterForm";
 
 const Register=()=>{
     return(

@@ -1,6 +1,6 @@
-import TopHeader from "./components/TopHeaderLoginRegister";
-import './components/loginRegisterStyle.css'
-import LoginForm from "./components/LoginForm";
+import TopHeader from "./components/LoginRegister/TopHeaderLoginRegister";
+import './components/LoginRegister/loginRegisterStyle.css'
+import LoginForm from "./components/LoginRegister/LoginForm";
 
 const Login=()=>{
 

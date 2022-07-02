@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Button from "react-bootstrap/Button";
 import {useState} from "react";
-import CheckLogin from "../ConnectApi/CheckLogin";
+import CheckLogin from "../../ConnectApi/CheckLogin";
 
 const LoginForm=()=> {
     const [username,setUsername] = useState("")
