@@ -10,7 +10,7 @@ const SideMenu=()=>{
     return(
         <div>
             <div className="SideMenu">
-                <img className="logo-topHeader" src={require('../img/logo-removebg.png')}/>
+                <img className="logo-topHeader" src={require('../../img/logo-removebg.png')}/>
                 <p className="brandName">บ้านลายทอง</p>
                 <div className="Menu">
                     <a href="/home" className="Menu-btn">สั่งซื้อสินค้า</a>

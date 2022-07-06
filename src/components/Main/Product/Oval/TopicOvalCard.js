@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 function TopicOvalCard() {
     return (
         <Card style={{ width: '100%', textAlign:"center" }}>
-            <Card.Img variant="top" src={require('../../../img/logo.jpg')}/>
+            <Card.Img variant="top" src={require('../../../../img/logo.jpg')}/>
             <Card.Body>
                 <Card.Title>ไข่</Card.Title>
                 <Button variant="primary">ดูสินค้า</Button>
