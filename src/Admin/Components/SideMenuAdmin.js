@@ -15,6 +15,7 @@ const SideMenuAdmin=()=>{
                 <div className="Menu">
                     <a href="/dashboard" className="Menu-btn">Dashboard</a>
                     <a href="/product" className="Menu-btn">Product</a>
+                    <a href="/coupon" className="Menu-btn">Discount Coupons</a>
                     <a href="/order" className="Menu-btn">Orders</a>
                     <a href="/Customers" className="Menu-btn">Customers</a>
 
