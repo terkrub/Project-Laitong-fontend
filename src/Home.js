@@ -1,4 +1,4 @@
-import SideMenu from "./components/Main/Sidemenu"
+import SideMenu from "./components/Main/SideMenu"
 import './components/Main/Style.css';
 import CheckToken from "./ConnectApi/CheckToken";
 import Product from "./components/Main/Product/Product";

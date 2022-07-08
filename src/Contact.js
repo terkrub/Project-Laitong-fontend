@@ -1,7 +1,8 @@
-import SideMenu from "./components/Main/Sidemenu"
+
 import './components/Main/Style.css';
 import CheckToken from "./ConnectApi/CheckToken";
 import ContactInfo from "./components/Main/Contact/ContactInfo";
+import SideMenu from "./components/Main/SideMenu";
 
 
 const Contact=()=>{

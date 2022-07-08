@@ -19,10 +19,8 @@ function SubmitRegister(username,password,branch){
                 alert("สมัครสมาชิคเรียบร้อยโปรดล็อคอิน")
                 window.location ='/login'
             }
-            if (data.message.includes("Duplicate entry")){
-                alert("Username นี้มีคนใช้เเล้วโปรดลองใหม่อีกคร้ง")
-            }
-
+            else
+                alert(data.message)
         })
         .catch((error)=>{
             console.error('Error',error)

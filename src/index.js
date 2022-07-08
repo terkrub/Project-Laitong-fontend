@@ -7,7 +7,7 @@ import Register from './Register'
 import Home from "./Home";
 import Contact from "./Contact";
 import AdminLogin from "./Admin/AdminLogin";
-import AddProducts from "./Admin/AddProducts";
+import Dashboard from "./Admin/Dashboard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -20,7 +20,7 @@ root.render(
           <Route path="/home" element={<Home/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/admin" element={<AdminLogin/>}/>
-          <Route path="/addproduct" element={<AddProducts/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
       </Routes>
   </BrowserRouter>
 );

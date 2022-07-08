@@ -15,7 +15,7 @@ function CheckLogin(username, password){
         .then(data => {
             if (data.status === 'Success'){
                 localStorage.setItem('token',data.token)
-                window.location = '/addproduct'
+                window.location = '/dashboard'
             }
             else {
                 alert("ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง")

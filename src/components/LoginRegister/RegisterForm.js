@@ -13,11 +13,11 @@ const RegisterForm=()=>{
     function handleSubmit(e){
         e.preventDefault()
         if (username=== "" || password=== "" || cfPassword === "" || branch === "โปรดเลือกสาขา" || branch ===""){
-            alert("โปรดกรอกข้อมูลให้ครบท่วน")
+            alert("Please fill all information")
             return
         }
         else if (password !== cfPassword){
-            alert("รหัสผ่านไม่ตรงกัน")
+            alert("Password and Confirm Password does not match")
             return
         }
 
@@ -43,12 +43,12 @@ const RegisterForm=()=>{
 
             <Form.Select aria-label="Default select example" className="mt-3" onChange={event =>setBranch(event.target.value)}>
                 <option>โปรดเลือกสาขา</option>
-                <option value="ทดสอบสาขา">ทดสอบสาขา</option>
+                <option value="test">ทดสอบสาขา</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </Form.Select>
 
-            <div className="login-btn">
+            <div className="register-btn">
                 <Button variant="primary" id='login-btn' type="submit">สมัครสมาชิค</Button>{' '}
             </div>
         </Form>
